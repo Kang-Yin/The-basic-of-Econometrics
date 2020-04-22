@@ -1,0 +1,157 @@
+数据：01 height inheritance.csv
+背景：数据来源于作者在问卷星开展的一项身高遗传调查，面向对象以在校大学生为主。
+变量说明：
+id，序号；
+age，受访者年龄；
+gender,受访者性别，1表示女性，2表示男性；
+height,受访者身高，单位：厘米；
+father_height,受访者父亲的身高，单位：厘米；
+mother_height，受访者母亲的身高，单位：厘米；
+film，受访者上中学之前去电影院看电影次数，1表示0次，2表示5次以内，3表示超过5次；
+mother_age，受访者出生时你妈妈的年龄；
+tourism，受访者在上大学之前是否有出境旅游的经历，1表示有，2表示没有；
+brother_num，受访者兄弟姐妹的数量。
+
+数据：02 life expectancy.csv
+背景：数据来源于1992年联合国教科文组织的年度报告。
+变量说明：
+Y，平均寿命；
+X1，人均GDP；
+X2，成人识字率，单位：%;
+X3，一岁儿童疫苗接种率，单位：%。
+
+数据：03 nerlove.csv
+背景：数据来源于Nerlove(1963)对电力行业规模报酬的研究，包括1955年美国145家电力企业的横截面数据。
+变量说明：
+TC，总成本；
+Q，总产量；
+PL，小时工资率；
+PF，燃料价格；
+PK，资本的使用成本。
+
+数据：04 import.csv
+背景：数据来源EPS数据库，指标都是当年价。
+变量说明：
+gdp：国内生产总值，单位：亿元；
+import：商品进口总额，单位：亿美元。
+
+数据：05 revenue.csv
+背景：数据来自庞皓《计量经济学》教材。
+变量说明：
+CS：财政收入，亿元；
+NZ：农业增加值，亿元；
+GZ：工业增加值，亿元；
+JZZ：建筑业增加值，亿元；
+TPOP：总人口，万人；
+CUM：总消费，亿元；
+SZM：受灾面积，万公顷。
+
+数据：06 consumption.csv
+背景：数据来源EPS数据库，主要包含人均GDP和人均消费两个指标。
+变量说明：
+gdp，人均GDP，单位元，当年价；
+gdp_price，人均国内生产总值指数，1978年=100；
+consumption，全体居民消费水平，单位元，当年价；
+consumption_price，全体居民消费水平指数，1978年=100；
+x，人均国内生产总值(1978年价)；
+y，全体居民消费水平(1978年价)。
+
+数据：07 fatalities.csv
+背景：US traffic fatalities panel data for the “lower 48” US states (i.e., excluding Alaska and Hawaii), annually for 1982 through 1988. Traffic fatalities are from the US Department of Transportation Fatal Accident Reporting System. The beer tax is the tax on a case of beer, which is an available measure of state alcohol taxes more generally. The drinking age variable is a factor indicating whether the legal drinking age is 18, 19, or 20. The two binary punishment variables describe the state's minimum sentencing requirements for an initial drunk driving conviction.
+Total vehicle miles traveled annually by state was obtained from the Department of Transportation. Personal income was obtained from the US Bureau of Economic Analysis, and the unemployment rate was obtained from the US Bureau of Labor Statistics. 
+
+变量说明：
+state：factor indicating state；
+year：factor indicating year；
+spirits：numeric. Spirits consumption.；
+unemp：numeric. Unemployment rate；
+
+income
+numeric. Per capita personal income in 1987 dollars.
+
+emppop
+numeric. Employment/population ratio.
+
+beertax
+numeric. Tax on case of beer.
+
+baptist
+numeric. Percent of southern baptist.
+
+mormon
+numeric. Percent of mormon.
+
+drinkage
+numeric. Minimum legal drinking age.
+
+dry
+numeric. Percent residing in “dry” countries.
+
+youngdrivers
+numeric. Percent of drivers aged 15–24.
+
+miles
+numeric. Average miles per driver.
+
+breath
+factor. Preliminary breath test law?
+
+jail
+factor. Mandatory jail sentence?
+
+service
+factor. Mandatory community service?
+
+fatal
+numeric. Number of vehicle fatalities.
+
+nfatal
+numeric. Number of night-time vehicle fatalities.
+
+sfatal
+numeric. Number of single vehicle fatalities.
+
+fatal1517
+numeric. Number of vehicle fatalities, 15–17 year olds.
+
+nfatal1517
+numeric. Number of night-time vehicle fatalities, 15–17 year olds.
+
+fatal1820
+numeric. Number of vehicle fatalities, 18–20 year olds.
+
+nfatal1820
+numeric. Number of night-time vehicle fatalities, 18–20 year olds.
+
+fatal2124
+numeric. Number of vehicle fatalities, 21–24 year olds.
+
+nfatal2124
+numeric. Number of night-time vehicle fatalities, 21–24 year olds.
+
+afatal
+numeric. Number of alcohol-involved vehicle fatalities.
+
+pop
+numeric. Population.
+
+pop1517
+numeric. Population, 15–17 year olds.
+
+pop1820
+numeric. Population, 18–20 year olds.
+
+pop2124
+numeric. Population, 21–24 year olds.
+
+milestot
+numeric. Total vehicle miles (millions).
+
+unempus
+numeric. US unemployment rate.
+
+emppopus
+numeric. US employment/population ratio.
+
+gsp
+numeric. GSP rate of change.
