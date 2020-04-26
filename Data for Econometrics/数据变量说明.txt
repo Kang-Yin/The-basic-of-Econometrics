@@ -59,69 +59,39 @@ y，全体居民消费水平(1978年价)。
 数据：07 fatalities.csv
 背景：US traffic fatalities panel data for the “lower 48” US states (i.e., excluding Alaska and Hawaii), annually for 1982 through 1988. Traffic fatalities are from the US Department of Transportation Fatal Accident Reporting System. The beer tax is the tax on a case of beer, which is an available measure of state alcohol taxes more generally. The drinking age variable is a factor indicating whether the legal drinking age is 18, 19, or 20. The two binary punishment variables describe the state's minimum sentencing requirements for an initial drunk driving conviction.
 Total vehicle miles traveled annually by state was obtained from the Department of Transportation. Personal income was obtained from the US Bureau of Economic Analysis, and the unemployment rate was obtained from the US Bureau of Labor Statistics. 
-
+1982年至1988年美国本土48个州（即不包括阿拉斯加和夏威夷）的交通死亡小组数据。交通事故死亡人数来自美国交通部致命事故报告系统。啤酒税是对一箱啤酒征收的税，这是一种更普遍的州酒精税的有效措施。饮酒年龄变量是指法定饮酒年龄是18岁、19岁还是20岁的一个因素。这两个二元惩罚变量描述了国家对醉酒驾驶初始定罪的最低量刑要求。
+各州每年行驶的车辆总英里数是从交通部获得的。个人收入来自美国经济分析局，失业率来自美国劳工统计局。
 变量说明：
-state：factor indicating state；
-year：factor indicating year；
-spirits：numeric. Spirits consumption.；
-unemp：numeric. Unemployment rate；
-
-income
-numeric. Per capita personal income in 1987 dollars.
-
-emppop
-numeric. Employment/population ratio.
-
-beertax
-numeric. Tax on case of beer.
-
-baptist
-numeric. Percent of southern baptist.
-
-mormon
-numeric. Percent of mormon.
-
-drinkage
-numeric. Minimum legal drinking age.
-
-dry
-numeric. Percent residing in “dry” countries.
-
-youngdrivers
-numeric. Percent of drivers aged 15–24.
-
-miles
-numeric. Average miles per driver.
+state：各州州名简称；
+year：年份；
+spirits：酒精消费量；
+unemp：失业率；
+income：1987年美元计价的个人可支配收入；
+emppop：就业人口占总人口的比例；
+beertax：每箱啤酒的税额；
+baptist：信仰南方浸信会教人口比例；
+mormon：信仰摩门教人口的比例；
+drinkage：法定最小饮酒年龄；
+dry：居住在干旱地区人口比例
+youngdrivers：年龄在15-24岁的驾驶者比例；
+miles：每个驾驶者平均驾驶里程数；
 
 breath
 factor. Preliminary breath test law?
 
-jail
+jail：酒驾是否会强制拘留？
 factor. Mandatory jail sentence?
 
-service
+service：是否会被强制要求社会服务？
 factor. Mandatory community service?
 
-fatal
-numeric. Number of vehicle fatalities.
-
-nfatal
-numeric. Number of night-time vehicle fatalities.
-
-sfatal
-numeric. Number of single vehicle fatalities.
-
-fatal1517
-numeric. Number of vehicle fatalities, 15–17 year olds.
-
-nfatal1517
-numeric. Number of night-time vehicle fatalities, 15–17 year olds.
-
-fatal1820
-numeric. Number of vehicle fatalities, 18–20 year olds.
-
-nfatal1820
-numeric. Number of night-time vehicle fatalities, 18–20 year olds.
+fatal：交通事故死亡人数；
+nfatal：夜间交通事故死亡人数；
+sfatal：单人交通事故死亡人数；
+fatal1517：交通事故死亡年龄在15-17岁人数；
+nfatal1517：夜间交通事故死亡年龄在15-17岁人数；
+fatal1820：交通事故死亡年龄在18-20岁人数；
+nfatal1820：夜间交通死亡年龄在18-20岁人数；
 
 fatal2124
 numeric. Number of vehicle fatalities, 21–24 year olds.
@@ -155,3 +125,15 @@ numeric. US employment/population ratio.
 
 gsp
 numeric. GSP rate of change.
+
+
+数据：08 cps08.csv
+背景：美国劳工部劳工统计局每月都会进行“当前人口调查”（CPS），提供有关人口劳动力特征的数据，包括就业水平、失业率和收入。每月约有65000个随机选择的美国家庭接受调查。样本是从一个数据库中随机选择地址的，该数据库由最近十年一次的人口普查中的地址组成，并增加了上次人口普查后建造的新住房单元的数据。准确的随机抽样方案相当复杂（先是随机选择小的地理区域，然后随机选择这些区域内的住房单元）；详情见《劳动统计手册》，并在劳动统计局网站（www.bls.gov）上进行了说明。
+每年3月进行的调查比其他月份更为详细，并询问有关上一年收入的问题。文件CPS08包含2008年的数据（来自2009年3月的调查）。这些数据是针对全职工人的，抽取条件为上一年每周工作超过35小时、至少工作48周，最高学历为（1）高中文凭和（2）学士学位的工人。
+变量说明：
+ahe:每小时工资；
+year:年份；
+bachelor：1表示大学学历，0表示高中学历；
+female：1表示女性，0表示男性；
+age：年龄。
+
