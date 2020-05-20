@@ -1,0 +1,141 @@
+数据：01 height inheritance.csv
+背景：数据来源于作者在问卷星开展的一项身高遗传调查，面向对象以在校大学生为主。
+变量说明：
+id，序号；
+age，受访者年龄；
+gender,受访者性别，1表示女性，2表示男性；
+height,受访者身高，单位：厘米；
+father_height,受访者父亲的身高，单位：厘米；
+mother_height，受访者母亲的身高，单位：厘米；
+film，受访者上中学之前去电影院看电影次数，1表示0次，2表示5次以内，3表示超过5次；
+mother_age，受访者出生时你妈妈的年龄；
+tourism，受访者在上大学之前是否有出境旅游的经历，1表示有，2表示没有；
+brother_num，受访者兄弟姐妹的数量。
+
+数据：02 life expectancy.csv
+背景：数据来源于1992年联合国教科文组织的年度报告。
+变量说明：
+Y，平均寿命；
+X1，人均GDP；
+X2，成人识字率，单位：%;
+X3，一岁儿童疫苗接种率，单位：%。
+
+数据：03 nerlove.csv
+背景：数据来源于Nerlove(1963)对电力行业规模报酬的研究，包括1955年美国145家电力企业的横截面数据。
+变量说明：
+TC，总成本；
+Q，总产量；
+PL，小时工资率；
+PF，燃料价格；
+PK，资本的使用成本。
+
+数据：04 import.csv
+背景：数据来源EPS数据库，指标都是当年价。
+变量说明：
+gdp：国内生产总值，单位：亿元；
+import：商品进口总额，单位：亿美元。
+
+数据：05 revenue.csv
+背景：数据来自庞皓《计量经济学》教材。
+变量说明：
+CS：财政收入，亿元；
+NZ：农业增加值，亿元；
+GZ：工业增加值，亿元；
+JZZ：建筑业增加值，亿元；
+TPOP：总人口，万人；
+CUM：总消费，亿元；
+SZM：受灾面积，万公顷。
+
+数据：06 consumption.csv
+背景：数据来源EPS数据库，主要包含人均GDP和人均消费两个指标。
+变量说明：
+gdp，人均GDP，单位元，当年价；
+gdp_price，人均国内生产总值指数，1978年=100；
+consumption，全体居民消费水平，单位元，当年价；
+consumption_price，全体居民消费水平指数，1978年=100；
+x，人均国内生产总值(1978年价)；
+y，全体居民消费水平(1978年价)。
+
+数据：07 fatalities.csv
+背景：US traffic fatalities panel data for the “lower 48” US states (i.e., excluding Alaska and Hawaii), annually for 1982 through 1988. Traffic fatalities are from the US Department of Transportation Fatal Accident Reporting System. The beer tax is the tax on a case of beer, which is an available measure of state alcohol taxes more generally. The drinking age variable is a factor indicating whether the legal drinking age is 18, 19, or 20. The two binary punishment variables describe the state's minimum sentencing requirements for an initial drunk driving conviction.
+Total vehicle miles traveled annually by state was obtained from the Department of Transportation. Personal income was obtained from the US Bureau of Economic Analysis, and the unemployment rate was obtained from the US Bureau of Labor Statistics. 
+1982年至1988年美国本土48个州（即不包括阿拉斯加和夏威夷）的交通死亡小组数据。交通事故死亡人数来自美国交通部致命事故报告系统。啤酒税是对一箱啤酒征收的税，这是一种更普遍的州酒精税的有效措施。饮酒年龄变量是指法定饮酒年龄是18岁、19岁还是20岁的一个因素。这两个二元惩罚变量描述了国家对醉酒驾驶初始定罪的最低量刑要求。
+各州每年行驶的车辆总英里数是从交通部获得的。个人收入来自美国经济分析局，失业率来自美国劳工统计局。
+变量说明：
+state：各州州名简称；
+year：年份；
+spirits：酒精消费量；
+unemp：失业率；
+income：1987年美元计价的个人可支配收入；
+emppop：就业人口占总人口的比例；
+beertax：每箱啤酒的税额；
+baptist：信仰南方浸信会教人口比例；
+mormon：信仰摩门教人口的比例；
+drinkage：法定最小饮酒年龄；
+dry：居住在干旱地区人口比例
+youngdrivers：年龄在15-24岁的驾驶者比例；
+miles：每个驾驶者平均驾驶里程数；
+
+breath
+factor. Preliminary breath test law?
+
+jail：酒驾是否会强制拘留？
+factor. Mandatory jail sentence?
+
+service：是否会被强制要求社会服务？
+factor. Mandatory community service?
+
+fatal：交通事故死亡人数；
+nfatal：夜间交通事故死亡人数；
+sfatal：单人交通事故死亡人数；
+fatal1517：交通事故死亡年龄在15-17岁人数；
+nfatal1517：夜间交通事故死亡年龄在15-17岁人数；
+fatal1820：交通事故死亡年龄在18-20岁人数；
+nfatal1820：夜间交通死亡年龄在18-20岁人数；
+
+fatal2124
+numeric. Number of vehicle fatalities, 21–24 year olds.
+
+nfatal2124
+numeric. Number of night-time vehicle fatalities, 21–24 year olds.
+
+afatal
+numeric. Number of alcohol-involved vehicle fatalities.
+
+pop
+numeric. Population.
+
+pop1517
+numeric. Population, 15–17 year olds.
+
+pop1820
+numeric. Population, 18–20 year olds.
+
+pop2124
+numeric. Population, 21–24 year olds.
+
+milestot
+numeric. Total vehicle miles (millions).
+
+unempus
+numeric. US unemployment rate.
+
+emppopus
+numeric. US employment/population ratio.
+
+gsp
+numeric. GSP rate of change.
+
+
+数据：08 cps08.csv
+背景：美国劳工部劳工统计局每月都会进行“当前人口调查”（CPS），提供有关人口劳动力特征的数据，包括就业水平、失业率和收入。每月约有65000个随机选择的美国家庭接受调查。样本是从一个数据库中随机选择地址的，该数据库由最近十年一次的人口普查中的地址组成，并增加了上次人口普查后建造的新住房单元的数据。准确的随机抽样方案相当复杂（先是随机选择小的地理区域，然后随机选择这些区域内的住房单元）；详情见《劳动统计手册》，并在劳动统计局网站（www.bls.gov）上进行了说明。
+每年3月进行的调查比其他月份更为详细，并询问有关上一年收入的问题。文件CPS08包含2008年的数据（来自2009年3月的调查）。这些数据是针对全职工人的，抽取条件为上一年每周工作超过35小时、至少工作48周，最高学历为（1）高中文凭和（2）学士学位的工人。
+变量说明：
+ahe:每小时工资；
+year:年份；
+bachelor：1表示大学学历，0表示高中学历；
+female：1表示女性，0表示男性；
+age：年龄。
+
+数据：09 dummy variable.csv
+背景：这是人为构造的一个多分类变量数据，包含有学历和收入两个指标。其中学历分为四个层次：小学、高中、大学以及研究生。
